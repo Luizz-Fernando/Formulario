@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cadastro cliente</title>
+</head>
+
+<body bgcolor="#2F4F4F">
+    <font face="calibri" color="#fff">
+
+        <h2>Locadora AutoCars</h2>
+        
+        <br>
+
+        <table align="center" cellpadding="5">
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend> <strong> <font size="5">Cadastro do Cliente</font> </strong> </legend>
+
+                            <font size="4">
+
+                        <form action="carro.html" method="" name="cadastro">
+
+                            <table cellpadding="5">
+
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="text" id="nome" name="nome" size="20"
+                                            placeholder="Nome" required>
+
+                                        <input type="text" id="sobrenome" name="sobrenome" size="20"
+                                            placeholder="Sobrenome" required>
+                                    </td>
+                                </tr>
+
+                                <tr>
+
+                                    <td colspan="2"> <input type="email" name="email" id="email" size="46" placeholder="Email"
+                                            required></td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="2"> <input type="password" name="senha" id="senha" size="46" placeholder="Senha"
+                                            required></td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="2"> <input type="tel" name="telefone" id="telefone" size="46" placeholder="Telefone"
+                                            required></td>
+                                </tr>
+
+                                <tr>
+                                    <td><label for="">Data nascimento:</label></td>
+                                    <td><input type="date" id="data_nasc" name="data_nas" 
+                                         size="40" required></td>
+                                </tr>
+
+                                <tr>
+                                    <td><label for="">Sexo:</label> </td>
+
+                                    <td>
+                                        <input type="radio" name="sexo" id="sexo" value="F" required>
+                                        <label for="">Masculino</label>
+                                        <input type="radio" name="sexo" id="sexo" value="M" required>
+                                        <label for="">Feminino</label>
+                                        <input type="radio" name="sexo" id="sexo" value="O" required>
+                                        <label for="">Outro</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><label for="">Estado:</label></td>
+
+                                    <td><select name="estados-brasil" required>
+
+                                            <optgroup label="Norte">
+                                                <option value="AC">Acre</option>
+                                                <option value="AP">Amapá</option>
+                                                <option value="AM">Amazonas</option>
+                                                <option value="PA">Pará</option>
+                                                <option value="RO">Rondônia</option>
+                                                <option value="RR">Roraima</option>
+                                                <option value="TO">Tocantins</option>
+                                            </optgroup>
+
+                                            <optgroup label="Nordeste">
+                                                <option value="AL">Alagoas</option>
+                                                <option value="BA">Bahia</option>
+                                                <option value="CE">Ceará</option>
+                                                <option value="MA">Maranhão</option>
+                                                <option value="PB">Paraíba</option>
+                                                <option value="PE">Pernambuco</option>
+                                                <option value="PI">Piauí</option>
+                                                <option value="RN">Rio Grande do Norte</option>
+                                                <option value="SE">Sergipe</option>
+                                            </optgroup>
+
+                                            <optgroup label="Centro-Oeste">
+                                                <option value="DF">Distrito Federal</option>
+                                                <option value="GO">Goiás</option>
+                                                <option value="MT">Mato Grosso</option>
+                                                <option value="MS">Mato Grosso do Sul</option>
+                                            </optgroup>
+
+                                            <optgroup label="Sudeste">
+                                                <option value="ES">Espírito Santo</option>
+                                                <option value="MG">Minas Gerais</option>
+                                                <option value="RJ">Rio de Janeiro</option>
+                                                <option value="SP">São Paulo</option>
+                                            </optgroup>
+
+                                            <optgroup label="Sul">
+                                                <option value="PR">Paraná</option>
+                                                <option value="RS">Rio Grande do Sul</option>
+                                                <option value="SC">Santa Catarina</option>
+                                            </optgroup>
+
+                                        </select></td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="2" align="center"> <input type="submit" name="enviar" id="enviar" value="Prosseguir">  <input type="reset" name="resetar"> </td>
+                                   
+                                    
+                                </tr>
+                                
+                            </font>
+
+                            </table>
+
+                        </form>
+
+
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+
+    </font>
+
+    <br><br><br><br><br><br><br>
+
+    <marquee scrollamount="25"> <img src="img/carro.gif" alt="gif de um carro"> </marquee>
+
+</body>
+
+</html>
